@@ -1,5 +1,5 @@
 import React from "react";
-import SquareComponent from "./SquareComponent";
+import SquareComponent from "./Squares";
 
 const Grids = () => {
   const [squares, setSquares] = React.useState(Array(9).fill(null));
